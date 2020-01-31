@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    font-family: 'Dosis', sans-serif;
+}
+.header{
+    width:100%;
+    height:auto;
+    background-color:#007bff;
+    text-align:center;
+    margin-top:0px;
+    padding:30px 30px;
+}
+
+.header h1{
+    margin-bottom:20px;
+}
+.header nav a:link{
+    text-decoration:none;
+    margin:0px 20px;
+    color:black;
+    transition:all .3s;
+}
+.header nav a:visited{
+    color:black;
+}
+.header nav a:hover{
+    text-decoration:none;
+    margin:0px 20px;
+    color:white;
+    background-color:rgb(44, 41, 233);
+}
+.header nav a:active{
+    color:blue;
+}
+.header nav{
+    text-align:right;
+    margin-top:30px;
+}
+
+.body{
+    width:100%;
+}
+#dm{
+    height:200px;
+    border:1px solid black;
+    margin:50px 0px;
+    font-size:22px;
+    text-align:center;
+}
+#body img{
+    width:100px;
+    height:100px;
+    margin:20px;
+    position:relative;
+    color:blue;
+}
+#body img:before{
+    position:absolute;
+    bottom:0;
+    left:0;
+    top:0;
+    right:0;
+
+    -webkit-transition-duration:0.3s;
+    transition-duration:0.2s;
+
+    -webkit-transition-property:top,left,right,bottom;
+    transition-property:top,left,right,bottom;
+}
+
+#dp{
+    height:200px;
+    border:1px solid black;
+    margin:50px 0px;
+    font-size:22px;
+    text-align:center;
+}
+#crudmobil{
+    height:200px;
+    border:1px solid black;
+    margin:50px 0px;
+    font-size:22px;
+    text-align:center;
+}
+#crudpenyewa{
+    height:200px;
+    border:1px solid black;
+    margin:50px 0px;
+    font-size:22px;
+    text-align:center;
+}
+#body a{
+    text-decoration:none;
+    color:black;
+    font-family: 'Dosis', sans-serif;
+}
+#body a:hover{
+    color:gray;
+}
+#footer{
+    background-color:black;
+    color:white;
+    padding:20px 30px;
+}
+#copyright{
+    text-align:center;
+    margin:10px 512px;
+}
+.col-md-4{
+    padding:50px 100px;
+    margin:0px 0px;
+    transition:all .3s;
+}
+.col-md-4:hover{
+    background-color:rgb(205, 205, 209);
+}
+
+#footer{
+    background-color:black;
+    color:white;
+    padding:20px 30px;
+}
+#Penyewa{
+    text-align:center;
+    margin:100px 375px;
+}
+.cari .button{
+    height:30px;
+    width:50px;
+    text-decoration:none;
+    background-color:#00CED1;
+}
+.opsimobil{
+    background-color:#00CED1;
+    padding:10px 10px;
+}
+.opsimobil:hover{
+    background-color:#01DFF7;
+}
