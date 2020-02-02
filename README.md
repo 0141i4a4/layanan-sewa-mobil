@@ -16,6 +16,7 @@ tutorial push folder dengan git bash
 7.git push origin master
 
 kalo error tak bisa di push("rejected...")
+
 1.git pull --rebase origin master
 
 2.git push origin master
